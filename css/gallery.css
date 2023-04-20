@@ -1,0 +1,17 @@
+.gallery{
+
+    display: none;
+    padding: 5%;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    grid-gap: 40px;
+
+    font-size: 30px;
+}
+
+
+.gallery img {
+    border-radius: 10%;
+}
