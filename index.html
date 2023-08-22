@@ -16,9 +16,13 @@
 </head>
 <body>
 
+    
     <header>
 		<!-- Nav is a sematic tag page that aids accessibility -->
+        
 		<nav>
+            <!--<img id= "logo" src="images/coatofarms.png" alt="Alpha Chi Sigma Logo" style="width:200px;height:200px;">-->
+            <img align = "left" src="images/AXΣ_Logo_no_bgd.png" alt="AXΣ logo" style="width:100px;height:100px;">
 			<ul>
 				<!-- Since I am on the index file I added class = action to the link to index. -->
 				<li class = "active_page"><a href = "index.html" >Homepage</a></li>
@@ -30,28 +34,94 @@
 			</ul>
 		</nav>
 		<!-- The h1 is a semantic tag that aids accessibility -->
-		<h1>Welcome!</h1>
+		<h1>Alpha Chi Sigma</h1>
+        <h2>Alpha Beta Chapter: Professional Chemistry Fraternity of the University of Michigan</h2>
 	</header>
 
     <main>
-        hello how are you
+        Who are we?
+
+       
+        <div class="graphic">
+            <!--I copied this from online, but I like that it is entirely internal! However, way less cool 
+            looking and will be harder to manipulate!-->
+            <svg height="200" width="200" viewBox="0 0 20 20">
+                <circle r="10" cx="10" cy="10" fill="white" />
+                <circle r="5" cx="10" cy="10" fill="transparent"
+                        stroke="tomato"
+                        stroke-width="10"
+                        stroke-dasharray="calc(35 * 31.4 / 100) 31.4"
+                        transform="rotate(-90) translate(-20)" />
+            </svg>
+
+
+             <!--copied this from website, probs want to code graphic internally and this organization is probably awful -->
+            <div id="container" style="width: 500px; height: 400px;"></div>
+            <script src="https://cdn.anychart.com/releases/8.11.1/js/anychart-base.min.js" type="text/javascript"></script>
+            <script src="https://cdn.anychart.com/releases/8.11.1/js/anychart-base.min.js" type="text/javascript"></script>
+            <script>
+              anychart.onDocumentLoad(function () {
+                // create an instance of a pie chart
+                var chart = anychart.pie();
+                // set the data
+                chart.data([
+                  ["Chemistry", 5],
+                  ["Biochemistry", 2],
+                  ["Chemical Engineering", 2],
+                  ["Humanities", 2],
+                ]);
+                // set chart title
+                chart.title("Members by Major");
+                // set the container element 
+                chart.container("container");
+                // initiate chart display
+                chart.draw();
+              });
+            </script>
+
+        </div>
 
         <div class="calendar">
             Calendar
         </div>
 
         <div class="x">
-            <p> paragraph</p>
+            <h2> Our Pillars</h2>
+            <img src="images/Group1-2022.jpg" alt="squad by the lake" style="width:500px;height:500px;">
+            <img src="images/IMG_1052 (1).jpg" alt="ice skating!" style="width:500px;height:500px;">
         </div>
 
-        <div class = "y">
+        <div class = "pillars">
+            <section>
+                <br>
+                <h2> Community Outreach Chairs</h2>
+                <p id = com>Community outreach is a very exciting chair position because it allows for Alpha Chi Sigma to give back to the Ann Arbor community and beyond to try to make the world a little better in the different ways we can. To reflect the chemistry that our professional fraternity stands for, we try to do science related events such as supporting children in their scientific curiosity through events like FEMMES and science Olympiad. We also do other events that we feel we can make a difference with, such as Ukrainian English tutoring, helping ill cats, habitat for humanity, and more. Community outreach is always expanding and changing to try to best fit community needs.
+                </p>
+            </section>
 
-        </div>
+            <section>
+                <h2> Professional Chairs</h2>
+                </p>
+                <br>
+            </section>
+
+            <section>
+
+                <h2> Sustainability Chair</h2>
+                <img src="images/IMG_1052 (1).JPG" alt = 'placeholder image' align = "left" style = "height:200px; width:200px;" margin = "3px" img>
+                <p  id = sus> As Chemists, we have a unique responsibility to the Earth. The compounds we synthesize, drugs we develop, and chemicals we produce and use have a direct relationship with our environment. Starting with Anastas and Warner in 1998, the focus has shifted more toward green chemistry as a way to do our part for the environment. However, our Chapter recognizes the importance of doing more for the earth and thus coordinates additional efforts to live sustainably and preserve the planet for future generations of chemists. Our chapter's sustainability efforts this year were centered on promoting local businesses, recycling, waste reduction, and garden preparation. We are fortunate to be located in Ann Arbor, which provided us with ample opportunities to collaborate with sustainable businesses. Our visit to the Bring Your Own Container store allowed us to stock up on household supplies in our own reused containers, thereby reducing waste and supporting a local enterprise. We also shopped at the Ann Arbor Farmers Market, which helped us reduce our carbon footprint and invest in our community. As part of our efforts to prevent recyclables from ending up in the trash, we began collecting cans and bottles for recycling, which also generated funds through bottle deposits. We hope to allocate these resources toward future sustainable projects. Additionally, we started garden preparations early by sprouting seeds indoors in repurposed egg cartons, in anticipation of our summer garden. The garden is an excellent way to promote healthy eating habits, save money, and encourage our members to take care of the environment.
+                </p>
+            </section>
+
+         </div>
+        
+     
 
     </main>
 
 
     <footer>
+        <!--Should we add 2017 copy right AXE for using the logo from the national website?? ALSO IT IS BLURRY NEED TO FIX-->
         Copyright Alpha Chi Sigma Webmasters 2023 &copy
     </footer>
     
