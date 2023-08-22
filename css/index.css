@@ -1,53 +1,33 @@
-.calendar {
-    border: 3px black solid;
-    padding: 5%;
-    margin: 25%;
-}
-
-.x{
+/* Abby's note: not sure what ".x" refers to? */
+/* .x{
     border: 3px black solid;
     padding: 5%;
     margin: 0%;
     font-style: italic;
     background-color: powderblue;
     text-indent: center;
-}
-/* HEADINGS */
-body{
-    background-color: powderblue;
-}
-nav{
-    background-color: lightcoral;
-}
+} */
+
+
 section{
-    border: 12px line rgb(255, 85, 0);
-    margin: 1px;    
-    color: white
+  border: 12px line rgb(255, 85, 0);
+  margin: 1px;    
+  color: white
 }
 
-h1 {
-    color: orangered;
-    text-align: center;
-    font-size: 400;
-    font-weight: bold;
-}
 
-h2 {
-    color: pink;
-    text-align: center;
-    font-size: xx-large;
-  }
-#sus{
-        margin: 3%;
-        font-family: "Times New Roman", Times, serif;
-    }
-#com{
-
-    margin: 3%;
-    font-family: "Times New Roman", Times, serif;
-}
 .graphic{
-    text-indent: center;
+  width: 40%;
+  text-indent: center;
+  background-color: transparent;
+  margin: auto;
+  padding: 5%;
+}
+
+.calendar {
+  width: 60%;
+  margin: auto;
+  padding: 5%;
 }
         
 #container {
@@ -61,32 +41,25 @@ h2 {
 }
 
 
+.pillars {
+  background-color: white;
+  width: 95%;
+  margin: auto;
+}
+
+.pillars_wrapper {
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-items: center;
+  padding: 0 3% 3% 3%;
+  column-gap: 2%;
+  row-gap: 2%;
+}
+
+.chairs_wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
   
-      
 
-
-
-/*want to make headers and footers show up on every page!!!*/
-@media screen {
-    div.divFooter {
-      display: none;
-    }
-  }
-  @media print {
-    div.divFooter {
-      position: fixed;
-      top: 0;
-    }
-  }
-
-  @media screen {
-    div.divHeader {
-      display: none;
-    }
-  }
-  @media print {
-    div.divHeader {
-      position: fixed;
-      top: 0;
-    }
-  }

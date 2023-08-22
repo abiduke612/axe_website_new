@@ -1,16 +1,29 @@
 nav {
 
-    background-color: #FAF9F6;
+    background-color: lightcoral;
+    width: 100%;
 
-    padding: 2% 5% 2% 5%;
-    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    overflow: auto;
+
+    /* padding: 2% 5% 2% 5%;
+    text-align: right; */
+
+    /* position: -webkit-sticky;
+    position: sticky;
+    top: 0; */
+    
 }
 
 nav li {
 
-    display: inline;
-
+    position: relative;
+    display: inline-block;
     padding: 20px 10px 20px 10px;
+    
 }
 
 nav a {
@@ -18,8 +31,77 @@ nav a {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 150%;
     color: white;
-    /* padding: 10% 0% 0% 0%; */
 }
+
+body{
+    background-color: powderblue;
+    width: 100%;
+    position: relative;
+    min-height: 100vh;
+}
+
+
+.title {
+    margin-right: auto;
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 150%;
+    color: white;
+
+}
+
+#bindstriveaid {
+    width: 50%;
+    margin: auto;
+}
+
+
+/* FOOTER STUFF */
+footer {
+    width: 100%;
+    height: 50px;
+    display: inline-block;
+    color: black;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    position: absolute;
+    bottom: 0;
+}
+
+footer #copyright {
+    margin-top:15px;
+    text-align:center;
+    font-size:13px;
+    color:#565353;
+    margin-bottom:0;
+}
+
+.bindstriveaid {
+    width: 50%;
+    margin: auto;
+    padding: 3%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    overflow: auto;
+}
+
+.bindstriveaid img {
+    width: 20%;
+    padding: 5%;
+}
+
+
+
+
+
+
+
+
+
+
 
 .active_page {
     text-decoration: underline 3px;
@@ -27,20 +109,57 @@ nav a {
     font-weight: bold;
 }
 
-h1{
-    font-size: 300%;
-    text-align: center;
-}
-
-footer {
-    position: fixed;
-    left: 0;
-    bottom:5%;
-    width: 100%;
-    color: black;
-    text-align: center;
-}
 
 img {
     width: 100%;
 }
+
+h1 {
+    color: orangered;
+    text-align: center;
+    font-size: 300%;
+    font-weight: bold;
+    padding: 2% 0% 0% 0%;
+}
+
+h2 {
+    color: orangered;
+    text-align: center;
+    font-size: 200%;
+    padding: 1% 0% 1% 0%;
+}
+
+/* should change this to differ from h2 more... */
+h3 {
+    color: orangered;
+    text-align: center;
+    font-size: 150%;
+    padding: 1% 0% 1% 0%;
+}
+
+
+
+/*want to make headers and footers show up on every page!!!*/
+/* @media screen {
+    div.divFooter {
+      display: none;
+    }
+  }
+  @media print {
+    div.divFooter {
+      position: fixed;
+      top: 0;
+    }
+  }
+
+  @media screen {
+    div.divHeader {
+      display: none;
+    }
+  }
+  @media print {
+    div.divHeader {
+      position: fixed;
+      top: 0;
+    }
+} */
