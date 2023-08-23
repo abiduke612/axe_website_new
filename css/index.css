@@ -1,14 +1,3 @@
-/* Abby's note: not sure what ".x" refers to? */
-/* .x{
-    border: 3px black solid;
-    padding: 5%;
-    margin: 0%;
-    font-style: italic;
-    background-color: powderblue;
-    text-indent: center;
-} */
-
-
 section{
   border: 12px line rgb(255, 85, 0);
   margin: 1px;    
@@ -54,12 +43,31 @@ section{
   justify-items: center;
   padding: 0 3% 3% 3%;
   column-gap: 2%;
-  row-gap: 2%;
+  row-gap: 5%;
 }
 
+/*Molly's note: going to fix this later! Need to fix alignments and make pictures smaller*/
 .chairs_wrapper {
+  grid-template-rows: 80px 200px;
+  width: 95%
+  margin: auto;
   display: grid;
   grid-template-columns: 1fr 1fr;
-}
+  justify-items: center;
+  padding: 0 3% 3% 3%;
+  column-gap: 2%;
+  row-gap: 2%;
   
+}
 
+#com_title {
+    grid-column: 1 / 3;
+}
+
+#prof_title {
+    grid-column: 1 / 3;
+}
+
+#sus_title {
+    grid-column: 1 / 3;
+}
