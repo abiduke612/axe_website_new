@@ -48,26 +48,69 @@ section{
 
 /*Molly's note: going to fix this later! Need to fix alignments and make pictures smaller*/
 .chairs_wrapper {
-  grid-template-rows: 80px 200px;
-  width: 95%
+  grid-template-rows: 80px 80px;
+  width: 95%;
   margin: auto;
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  justify-items: center;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  justify-content: left;
   padding: 0 3% 3% 3%;
   column-gap: 2%;
   row-gap: 2%;
-  
+  border-radius: 50%;
+  border: 1cm;
+  font-size: large;
 }
 
-#com_title {
-    grid-column: 1 / 3;
+/*Molly: float may not be doing anything here*/
+#com_pic{
+    grid-column: 1;
+    float: left;  
+    max-width: 75%; 
+    height: auto; 
+    border-radius: 50%;
 }
 
-#prof_title {
-    grid-column: 1 / 3;
+#prof_pic{
+    grid-column: 3;
+    float: right;  
+    max-width: 75%; 
+    height: auto; 
+    border-radius: 50%;
+    margin-right: auto;
+}
+
+#sus_pic{
+    grid-column: 1;
+    float: left;  
+    max-width: 75%; 
+    height: auto; 
+    border-radius: 50%;
 }
 
 #sus_title {
+    grid-column: 1 / 4;
+}
+
+#com_title {
+    grid-column: 1 / 4;
+}
+
+#prof_title {
+    grid-column: 1 / 4;
+}
+
+#sus {
+    grid-column: 2 / 4;
+}
+
+#com{
+    grid-column: 2 / 4;
+}
+
+#prof {
     grid-column: 1 / 3;
 }
+
+#sus{
+    grid-column: 2 / 4;
