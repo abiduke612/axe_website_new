@@ -28,9 +28,8 @@
 
 			<ul>
 				<!-- Since I am on the index file I added class = active_page to the link to index. -->
-				<li><a href = "index.html" >Homepage</a></li>
-				<li><a href = "about.html">About</a></li>
-                <li><a href = "rush.html">Rush</a></li>
+				<li><a href = "index.html" >About</a></li>
+                <li><a href = "index.html#Rush_section">Rush</a></li>
                 <li class = "active_page"><a href = "members.html">Members</a></li>
 				<li><a href = "gallery.html">Photo Gallery</a></li>
 				<li><a href = "https://docs.google.com/forms/d/e/1FAIpQLScpvOZb2jZbO8Um6QRq0LZ327rooyojAumfeD7W38NJ_RCzFA/viewform">Apply!</a></li>
@@ -52,6 +51,111 @@
             </div>
             <div class = "Kelly_p"><p>Hi, I’m Kelly Deng and I’m one of Alpha Chi Sigma’s vice presidents! I’m a junior majoring in biochemistry with a minor in music, and I’m currently doing research in the Ragsdale lab. I rushed during winter ‘21 and we’ve been able to bring back so many traditions since then! I can’t wait to meet our new pc and build on the amazing friendships we have in AXE!
                 </p>
+            </div>
+        </div>
+
+        <div class = "chairs">
+
+            <div class="chairs_wrapper">
+                <h2 id = com_title> Community Outreach Chairs</h2>
+                <img id = com_pic src="images/Restore_humanity.jpg" alt="volunteering at Habitats for Humanity">
+                <p id = com>Community outreach is a very exciting chair position because it allows for Alpha Chi Sigma to give back to the Ann Arbor community and beyond to try to make the world a little better in the different ways we can. To reflect the chemistry that our professional fraternity stands for, we try to do science related events such as supporting children in their scientific curiosity through events like FEMMES and science Olympiad. We also do other events that we feel we can make a difference with, such as Ukrainian English tutoring, helping ill cats, habitat for humanity, and more. Community outreach is always expanding and changing to try to best fit community needs.
+                </p>
+        
+                <h2 id = prof_title> Professional Chairs</h2>
+                <p id = prof> As a professional fraternity, we help all of our members navigate their academic and professional futures. Through study tables, speaker series, and research presentations by brothers, our members benefit from a support network for their classes, as well as exposure to all the different research going on around campus, both by brothers and professors. And our scope is not limited to the University of Michigan, last year we hosted Dr. Levin from the University of Chicago as part of our Bartell Lecture Series.                    </p>
+                <img id = prof_pic src="images/Kelly_research_presentation.png" alt="starting the garden">
+               
+                <h2 id = sus_title> Sustainability Chair</h2>
+                <img id = sus_pic src="images/raking_garden.jpg" alt="starting the garden">
+                <p  id = sus> As Chemists, we have a unique responsibility to the Earth. The compounds we synthesize, drugs we develop, and chemicals we produce and use have a direct relationship with our environment. However, our Chapter recognizes the importance of doing more for the earth and thus coordinates additional efforts to live sustainably and preserve the planet for future generations of chemists. Our chapter's sustainability efforts are centered on promoting local businesses, recycling, waste reduction, and garden preparation. We visit the Bring Your Own Container store to stock up on household supplies in our own reused container, shop at the Ann Arbor Farmers Market, and collect cans and bottles for recycling. We started garden preparations early by sprouting seeds indoors in repurposed egg cartons, in anticipation of our summer garden. The garden is an excellent way to promote healthy eating habits, save money, and encourage our members to take care of the environment.
+
+                </p>
+
+            </div>
+            
+        </div>
+
+        <div class="graphic_container">
+            <!--I copied this from online, but I like that it is entirely internal! However, way less cool 
+            looking and will be harder to manipulate!-->
+            <!-- <svg height="200" width="200" viewBox="0 0 20 20">
+                <circle r="10" cx="10" cy="10" fill="white" />
+                <circle r="5" cx="10" cy="10" fill="transparent"
+                        stroke="tomato"
+                        stroke-width="10"
+                        stroke-dasharray="calc(35 * 31.4 / 100) 31.4"
+                        transform="rotate(-90) translate(-20)" />
+            </svg> -->
+
+
+             <!--copied this from website, probs want to code graphic internally and this organization is probably awful -->
+
+            <div id="graphic_descriptor">
+                <p>This describes the graphic!</p>
+                
+            </div>
+
+
+            <div id="graphic">
+                <script src="https://cdn.anychart.com/releases/8.11.1/js/anychart-base.min.js" type="text/javascript"></script>
+                <script>
+                anychart.onDocumentLoad(function () {
+                    // create an instance of a pie chart
+                    var chart = anychart.pie();
+                    // set the data
+                    chart.data([
+                    ["Chemistry", 5],
+                    ["Biochemistry", 2],
+                    ["Chemical Engineering", 2],
+                    ["Humanities", 2],
+                    ]);
+                    // set chart title
+                    chart.title("Members by Major");
+                    // set the container element 
+                    chart.container("graphic");
+                    // initiate chart display
+                    chart.draw();
+                });
+                </script>
+            </div>
+
+            <div class="graphic">
+                <!--I copied this from online, but I like that it is entirely internal! However, way less cool 
+                looking and will be harder to manipulate!-->
+                <!-- <svg height="200" width="200" viewBox="0 0 20 20">
+                    <circle r="10" cx="10" cy="10" fill="white" />
+                    <circle r="5" cx="10" cy="10" fill="transparent"
+                            stroke="tomato"
+                            stroke-width="10"
+                            stroke-dasharray="calc(35 * 31.4 / 100) 31.4"
+                            transform="rotate(-90) translate(-20)" />
+                </svg> -->
+    
+    
+                 <!--copied this from website, probs want to code graphic internally and this organization is probably awful -->
+                <!--<div id="container">
+                    <script src="https://cdn.anychart.com/releases/8.11.1/js/anychart-base.min.js" type="text/javascript"></script>
+                    <script>
+                    anychart.onDocumentLoad(function () {
+                        // create an instance of a pie chart
+                        var chart = anychart.pie();
+                        // set the data
+                        chart.data([
+                        ["Chemistry", 5],
+                        ["Biochemistry", 2],
+                        ["Chemical Engineering", 2],
+                        ["Humanities", 2],
+                        ]);
+                        // set chart title
+                        chart.title("Members by Major");
+                        // set the container element 
+                        chart.container("container");
+                        // initiate chart display
+                        chart.draw();
+                    });
+                    </script>
+                </div>-->
             </div>
         </div>
         
