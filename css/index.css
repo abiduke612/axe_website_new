@@ -1,7 +1,17 @@
-section{
-  border: 12px line rgb(255, 85, 0);
-  margin: 1px;    
-  color: white
+.gallery{
+  padding: 5%;
+  box-sizing: border-box;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  grid-gap: 40px;
+
+  font-size: 30px;
+}
+
+
+.gallery img {
+  border-radius: 10%;
 }
 
 .calendar {
@@ -10,8 +20,6 @@ section{
   padding: 5%;
 }
         
-
-
 
 .pillars {
   background-color: white;
