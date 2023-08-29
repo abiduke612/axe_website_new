@@ -31,7 +31,7 @@
                 <li><a href = "#Rush_section">Rush</a></li>
                 <li><a href = "members.html">Members</a></li>
 				<li><a href = "gallery.html">Photo Gallery</a></li>
-				<li><a href = "https://docs.google.com/forms/d/e/1FAIpQLScpvOZb2jZbO8Um6QRq0LZ327rooyojAumfeD7W38NJ_RCzFA/viewform">Apply!</a></li>
+				<li id="apply_link"><a href = "https://docs.google.com/forms/d/e/1FAIpQLScpvOZb2jZbO8Um6QRq0LZ327rooyojAumfeD7W38NJ_RCzFA/viewform">Apply!</a></li>
 			</ul>
 		</nav>
 		
@@ -39,30 +39,145 @@
 
     <main>
 
-        <h1>Alpha Chi Sigma</h1>
-        <h2>Alpha Beta Chapter: Professional Chemistry Fraternity of the University of Michigan</h2>
+        <h1>Alpha Chi Sigma <code>&#8212;</code> Alpha Beta Chapter</h1>
+        <h2>Professional Chemistry Fraternity of the University of Michigan</h2>
 
         <div id="About_section">
 
-            <ul class="gallery">
-                <li tabindex="0">
-                    <img id="" src="images/AXEHouse2020.jpg" alt="" />
-                </li>
-                <li tabindex="0">
-                    <img id="" src="images/initiation_w23.png" alt="" />
-                </li>
+            <div class="intro_imgs">
+                
+                <img id="" src="images/AXEHouse2020.jpg" alt="" />
+            
+                <img id="" src="images/initiation_w23.png" alt="" />
                 
             </div>
-            
 
         </div>
 
         <div id="Rush_section">
 
+            <div>
+                <h1>Rush Alpha Chi Sigma!</h1>
+                <h3>To join the interest email list, click <a href="https://forms.gle/ch6T6HuLkLtfiZsL9">here</a>. Keep scrolling for an FAQ and more info.</h3>
+            </div>
+
+
             <div class="calendar">
-                <h2>Check out our rush calendar!</h2>
                 <img src="images/AXE_Rush_Calendar_F23.png">
             </div>
+
+            <div class="faq_wrapper">
+                <div class="faq">
+                    <button class="accordion">
+                    What is Krushi?
+                    <i class="fa-solid fa-chevron-down"></i>
+                    </button>
+                    <div class="pannel">
+                        <p>
+                            Krushi is a Public Charitable Trust designed to carry out farming on
+                            extensive scale Natural & Sustainable methods.
+                        </p>
+                    </div>
+                </div>
+            
+                <div class="faq">
+                    <button class="accordion">
+                    How does it work?
+                    <i class="fa-solid fa-chevron-down"></i>
+                    </button>
+                    <div class="pannel">
+                        <p>
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis
+                            saepe molestiae distinctio asperiores cupiditate consequuntur dolor
+                            ullam, iure eligendi harum eaque hic corporis debitis porro
+                            consectetur voluptate rem officiis architecto.
+                        </p>
+                    </div>
+                </div>
+            
+                <div class="faq">
+                    <button class="accordion">
+                    What are the major challanges of current agriculture?
+                    <i class="fa-solid fa-chevron-down"></i>
+                    </button>
+                    <div class="pannel">
+                        <p>
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis
+                            saepe molestiae distinctio asperiores cupiditate consequuntur dolor
+                            ullam, iure eligendi harum eaque hic corporis debitis porro
+                            consectetur voluptate rem officiis architecto.
+                        </p>
+                    </div>
+                </div>
+            
+                <div class="faq">
+                    <button class="accordion">
+                    How does the Krushi address the above challanges?
+                    <i class="fa-solid fa-chevron-down"></i>
+                    </button>
+                    <div class="pannel">
+                        <p>
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis
+                            saepe molestiae distinctio asperiores cupiditate consequuntur dolor
+                            ullam, iure eligendi harum eaque hic corporis debitis porro
+                            consectetur voluptate rem officiis architecto.
+                        </p>
+                    </div>
+                </div>
+            
+                <div class="faq">
+                    <button class="accordion">
+                    How can I be a part of Krushi?
+                    <i class="fa-solid fa-chevron-down"></i>
+                    </button>
+                    <div class="pannel">
+                        <p>
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis
+                            saepe molestiae distinctio asperiores cupiditate consequuntur dolor
+                            ullam, iure eligendi harum eaque hic corporis debitis porro
+                            consectetur voluptate rem officiis architecto.
+                        </p>
+                    </div>
+                </div>
+        
+                <div class="faq">
+                    <button class="accordion">
+                    How does it work?
+                    <i class="fa-solid fa-chevron-down"></i>
+                    </button>
+                    <div class="pannel">
+                        <p>
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis
+                            saepe molestiae distinctio asperiores cupiditate consequuntur dolor
+                            ullam, iure eligendi harum eaque hic corporis debitis porro
+                            consectetur voluptate rem officiis architecto.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+
+            
+        
+            <script>
+              var acc = document.getElementsByClassName("accordion");
+              var i;
+        
+              for (i = 0; i < acc.length; i++) {
+                acc[i].addEventListener("click", function () {
+                  this.classList.toggle("active");
+                  this.parentElement.classList.toggle("active");
+        
+                  var pannel = this.nextElementSibling;
+        
+                  if (pannel.style.display === "block") {
+                    pannel.style.display = "none";
+                  } else {
+                    pannel.style.display = "block";
+                  }
+                });
+              }
+            </script>
     
 
         </div>
