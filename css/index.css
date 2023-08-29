@@ -14,6 +14,35 @@
   border-radius: 10%;
 }
 
+
+.gallery {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: auto;
+  justify-content: center;
+  padding-bottom: 5%;
+
+}
+
+.gallery img {
+  width: 400px;
+}
+
+#center_text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  
+}
+
+
+
+
+
+
 .calendar {
   width: 60%;
   margin: auto;
@@ -86,9 +115,10 @@
         
 
 .pillars {
-  background-color: white;
+  /* background-color: white; */
   width: 95%;
   margin: auto;
+  margin-bottom: 100px;
 }
 
 .pillars_wrapper {
@@ -100,3 +130,47 @@
   column-gap: 2%;
   row-gap: 5%;
 }
+
+.pillars_wrapper img {
+  width: 40%;
+}
+
+
+
+.bindstriveaid {
+  width: 75%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  column-gap: 10px;
+  align-items: center;
+  justify-items: center;
+  text-align: center;
+  padding-bottom: 100px;
+}
+
+.objectives h1{
+  padding-bottom: 5%;
+  text-decoration: underline;
+}
+
+.objectives_tiles {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 3%;
+
+}
+
+.bsa_text {
+  background-color: #0d1a73;
+  color: white;
+  border: 1px solid;
+  padding: 10px;
+  border-radius: 10%;
+  box-shadow: 5px 10px 8px #888888;
+}
+
+.bsa_text h2 {
+  color: white;
+}
+
