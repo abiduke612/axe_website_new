@@ -10,7 +10,12 @@
 /* Hide the images by default */
 .mySlides {
     display: none;
-  }
+}
+
+/* Show just the first image by default */
+#first_img {
+    display: block;
+}
   
 
 /* Next & previous buttons */
