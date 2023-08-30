@@ -164,7 +164,8 @@ h5 {
     margin: auto;
     background-color: white;
     padding: 5%;
-    /* border-radius: 20%; */
+    border-radius: 20%;
+    border: black solid 1px;
 }
 
 
