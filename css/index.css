@@ -17,6 +17,8 @@ main {
   padding-top: 200px;
 }
 
+
+
 .About_section {
   position: relative;
 }
@@ -29,6 +31,23 @@ main {
   padding-top: 20px;
   left: 50%;
   transform: translate(-50%, -50%);
+
+}
+
+/* FOR CELL PHONES!! */
+@media screen and (max-width: 768px) {
+
+  main {
+      padding-top: 300px;
+  }
+
+  #banner {
+    width: 70%;
+  }
+
+  .bindstriveaid {
+    display: none;
+  }
 
 }
 

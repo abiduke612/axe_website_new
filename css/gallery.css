@@ -1,8 +1,20 @@
 * {box-sizing:border-box}
 
+main {
+  padding-top: 125px;
+}
+
+@media screen and (max-width: 768px) {
+
+  main {
+      padding-top: 250px;
+  }
+
+}
+
 /* Slideshow container */
 .slideshow-container {
-  max-width: 1000px;
+  max-width: 500px;
   position: relative;
   margin: auto;
 }
