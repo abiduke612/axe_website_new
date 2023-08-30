@@ -193,3 +193,13 @@ h5 {
 }
 
 
+@media screen and (max-width: 768px) {
+
+    .chairs_wrapper {
+        display: none;
+    }
+
+    #chairs_title {
+        display: none;
+    }
+}

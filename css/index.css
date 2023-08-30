@@ -45,10 +45,6 @@ main {
     width: 70%;
   }
 
-  .bindstriveaid {
-    display: none;
-  }
-
 }
 
 .gallery {
@@ -210,3 +206,17 @@ main {
   color: white;
 }
 
+
+
+
+@media screen and (max-width: 768px) {
+
+  .bindstriveaid {
+    display: none;
+  }
+
+  .objectives {
+    display: none;
+  }
+
+}
