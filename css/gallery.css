@@ -22,6 +22,8 @@ main {
 /* Hide the images by default */
 .mySlides {
     display: none;
+    margin: auto;
+    width: 60%;
 }
 
 /* Show just the first image by default */
