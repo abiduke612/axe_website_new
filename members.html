@@ -7,6 +7,11 @@
 
     <!-- Link to the reset file -->
 	<link rel="stylesheet" href="css/html5reset.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@10..48,200&display=swap" rel="stylesheet">
+
 	<!-- Link to the stylesheet -->
 	<link rel="stylesheet" href="css/style.css">
 
@@ -32,7 +37,7 @@
                 <li><a href = "index.html#Rush_section">Rush</a></li>
                 <li class = "active_page"><a href = "members.html">Members</a></li>
 				<li><a href = "gallery.html">Photo Gallery</a></li>
-				<li><a href = "https://docs.google.com/forms/d/e/1FAIpQLScpvOZb2jZbO8Um6QRq0LZ327rooyojAumfeD7W38NJ_RCzFA/viewform">Apply!</a></li>
+				<li id="apply_link"><a href = "https://docs.google.com/forms/d/e/1FAIpQLScpvOZb2jZbO8Um6QRq0LZ327rooyojAumfeD7W38NJ_RCzFA/viewform">Apply!</a></li>
 			</ul>
 		</nav>
 
@@ -40,28 +45,49 @@
 <!--How to put image size in css?? need to make this page OKAY and waiting on Ruya picture from Sophia-->
     <main>
         <h1>Meet the Executive Board!</h1>
-        <div class = "exec_wrapper">
-            <div class = "Lauren_pic"><img src = images/Lauren_Headshot.JPG alt = "Our President Lauren"></div>
-            <div class = "Kelly_pic"><img src = images/Kelly_Headshot.JPEG alt = "Our Vice President Kelly"></div>
-            <div class = "Nate_pic"><img src = images/Nate_Headshot.jpeg alt = "Our Rush Chair Nate"></div>
-            <div class = "Ruya_pic"><img src = images/Ruya_pic.jpeg alt = "Our VMA Ruya"></div>
-        
-            <div class = "Lauren_p">
-                <p> Hi, my name is Lauren Zielaskowski and I’m the current president of Alpha Chi Sigma at Michigan! I’m a senior double majoring in Biochemistry and Biophysics, and I’m a current undergraduate researcher in the Baldridge Lab in the Medical School. I rushed in Fall of 2021 and am so excited to welcome a new pledge class this semester! I’ve absolutely loved the people, the opportunities, and the experiences this organization has given me and can’t wait to see what the future holds!”
-                </p>
+
+        <div class = "big4_wrapper">
+            
+            <div class="big4_card">
+                <img src = images/Lauren_Headshot.JPG alt = "Our President Lauren">
+                <div class="big4_card_textbox">
+                    <h4>Lauren Zielaskowski</h4>
+                    <h5>President</h5>
+                    <p> Hi, my name is Lauren Zielaskowski and I’m the current president of Alpha Chi Sigma at Michigan! I’m a senior double majoring in Biochemistry and Biophysics, and I’m a current undergraduate researcher in the Baldridge Lab in the Medical School. I rushed in Fall of 2021 and am so excited to welcome a new pledge class this semester! I’ve absolutely loved the people, the opportunities, and the experiences this organization has given me and can’t wait to see what the future holds!”
+                    </p>
+                </div>
             </div>
-            <div class = "Kelly_p">
-                <p>Hi, I’m Kelly Deng and I’m one of Alpha Chi Sigma’s vice presidents! I’m a junior majoring in biochemistry with a minor in music, and I’m currently doing research in the Ragsdale lab. I rushed during winter ‘21 and we’ve been able to bring back so many traditions since then! I can’t wait to meet our new pc and build on the amazing friendships we have in AXE!
-                </p>
+
+            <div class="big4_card">
+                <img src = "images/Kelly_Headshot.JPEG" alt = "Kelly">
+                <div class="big4_card_textbox">
+                    <h4>Kelly Deng</h4>
+                    <h5>Vice President</h5>
+                    <p>Hi, I’m Kelly Deng and I’m one of Alpha Chi Sigma’s vice presidents! I’m a junior majoring in biochemistry with a minor in music, and I’m currently doing research in the Ragsdale lab. I rushed during winter ‘21 and we’ve been able to bring back so many traditions since then! I can’t wait to meet our new pc and build on the amazing friendships we have in AXE!
+                    </p>
+                </div>
             </div>
-            <div class = "Nate_p">
-                <p>My name a nate white
-                </p>
+
+            <div class="big4_card">
+                <img src = "images/Nate_Headshot.jpeg" alt = "Our rush chair Nate White">
+                <div class="big4_card_textbox">
+                    <h4>Nate White</h4>
+                    <h5>Rush Chair</h5>
+                    <p>My name a nate white
+                    </p>
+                </div>
             </div>
-            <div class = "Ruya_p">
-                <p>Hi, I'm Ruya!
-                </p>
+
+            <div class="big4_card">
+                <img src = "images/Ruya_pic.jpeg" alt = "Our rush chair Nate White">
+                <div class="big4_card_textbox">
+                    <h4>Ruya Pakkan</h4>
+                    <h5>Vice President</h5>
+                    <p>Hi! My name is Rüya Pakkan and I’m the other vice president for Alpha Chi Sigma! I’m a senior and I’m double majoring in Chemistry and Biophysics. I also work as an undergraduate researcher in the Zimmerman group. I rushed Fall 2021 and I met my best friends through AXE. I loved my pledge semester and pledge class so much, and it’s been so nice seeing our fraternity grow and become more active ever since. I’m very excited to rush our new pledge class this semester and meet all of them!!
+                    </p>
+                </div>
             </div>
+
         </div>
 
         <br>

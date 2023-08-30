@@ -1,6 +1,6 @@
 /*need to fix order of the grid items!!*/
 /*not working how I thought it would!*/
-.exec_wrapper{
+/* .exec_wrapper{
     width: 75%;
     display: grid;
     margin: auto;
@@ -16,10 +16,10 @@
 .exec_wrapper p {
     padding: 5%;
     background-color: white;
-}
+} */
 
 
-.Lauren_pic{
+/* .Lauren_pic{
     grid-row-start: 1;
     grid-column-start: 1;
 }
@@ -58,12 +58,59 @@
 .Ruya_p {
     grid-row-start: 2;
     grid-column-start: 5;
+} */
+
+h4 {
+    color: black;
+    text-align: center;
+    font-size: 200%;
+    padding: 5%;
+}
+
+h5 {
+    color: black;
+    text-align: center;
+    font-size: 150%;
+    padding: 0 0 4% 0;
+}
+
+.big4_wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
 }
 
 
+.big4_card {
+    box-shadow: 0px 0px 5px 3px #AAAAAA;
+    background-color: white;
+    border-radius: 2px;
+    width: 300px;
+    height: 550px;
+    margin: 20px;
+}
 
+.big4_card img {
+    box-shadow: 0px 0px 2px 1px #AAAAAA;
+    border-radius: 2px;
+    width: 200px;
+    height: 200px;
+    margin: 50px 50px 0px 50px;
+    object-fit: cover;
+}
 
-
+.big4_card_textbox {
+    width: 260px;
+    height: 200px;
+    font-size: 13px;
+    text-align: left;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 120%;
+    margin: 5px 20px 20px 20px;
+}
 
 
 

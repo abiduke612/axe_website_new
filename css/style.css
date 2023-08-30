@@ -1,3 +1,8 @@
+* {
+    /* font-family: 'Bricolage Grotesque', sans-serif; */
+    font-family: 'DM Serif Display', serif;
+}
+
 nav {
 
     background-color: #0d1a73;
@@ -12,6 +17,7 @@ nav {
     /* Fixed nav bar at the top :) */
     position: fixed;
     top: 0;
+    z-index: 100;
 }
 
 nav li {
@@ -24,24 +30,25 @@ nav li {
 
 nav a {
     text-decoration: none;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 150%;
-    color: white;
+    color: #f4f794;
 }
 
 
 #apply_link {
-    background-color: white;
+    background-color: #f4f794;
     border-radius: 50%;
     
 }
 
 #apply_link a {
     color: #0d1a73;
+    font-weight: bold;
 }
 
 main {
     padding-top: 105px;
+
 }
 
 html {
@@ -58,7 +65,7 @@ body{
 
 .active_page {
     text-decoration: underline 3px;
-    color: white;
+    color: #f4f794;
     font-weight: bold;
 }
 
@@ -66,7 +73,6 @@ body{
 .nav_title {
     margin-right: auto;
     text-decoration: none;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 150%;
     color: white;
 
@@ -127,6 +133,8 @@ h3 {
     font-size: 150%;
     padding: 1% 0% 1% 0%;
 }
+
+
 
 
 
