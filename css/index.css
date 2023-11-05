@@ -53,7 +53,7 @@ main {
   flex-wrap: wrap;
   margin: auto;
   justify-content: center;
-  padding-bottom: 5%;
+  /* padding-bottom: 5%; */
 
 }
 
@@ -207,7 +207,13 @@ main {
 }
 
 
-
+#about_paragraph {
+  width: 75%;
+  text-align: center;
+  margin: auto;
+  padding-top: 2%;
+  padding-bottom: 5%;
+}
 
 @media screen and (max-width: 768px) {
 
@@ -219,4 +225,9 @@ main {
     display: none;
   }
 
+  h3 {
+    font-size: 100%;
+  }
+
 }
+
