@@ -1,0 +1,41 @@
+main {
+    padding-top: 100px;
+  }
+  
+ .timeline{
+    display:grid;
+    grid-template-columns;
+    width: 100%;
+
+ } 
+  
+  .intro {
+    background-color: #0d1a73;
+    color: white;
+    border: 1px solid;
+    padding: 10px;
+    border: 10%;
+    box-shadow: 5px 10px 8px #888888;
+    width: 25%;
+    line-height: 1.8;
+  }
+  
+#first{
+    
+}
+
+#second{
+    
+}
+
+#third{
+    
+}
+
+#fourth{
+    
+}
+
+#fifth{
+    
+}
