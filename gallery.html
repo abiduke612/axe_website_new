@@ -14,8 +14,8 @@
 
 	<!-- Link to the stylesheet -->
 	<link rel="stylesheet" href="css/style.css">
-
     <link rel="stylesheet" href="css/gallery.css">
+    <link rel="stylesheet" href="css/lightbox.css">
 
     <title>Photo Gallery</title>
 </head>
@@ -31,7 +31,6 @@
             </div>
 
 			<ul>
-				<!-- Since I am on the index file I added class = active_page to the link to index. -->
 				<li><a href = "index.html" >About</a></li>
                 <li><a href = "index.html#Rush_section">Rush</a></li>
                 <li><a href = "members.html">Members</a></li>
@@ -43,95 +42,133 @@
 
     <main>
 
-        <script src="js/carousel.js"></script>
+        <!-- <script src="js/carousel.js"></script> -->
 
         <!-- Slideshow container -->
-        <div class="slideshow-container">
+        <div class="container">
 
-            <!-- Full-width images with number and caption text -->
-            <div class="mySlides fade" id="first_img">
-                <div class="numbertext">1 / 10</div>
-                <img src="images/pinball_petes.jpg" style="width:100%">
-                <div class="text">Arcade Games!</div>
-            </div>
-        
-            <div class="mySlides fade">
-                <div class="numbertext">2 / 10</div>
-                <img src="images/potluck.jpg" style="width:100%">
-                <div class="text">Potluck at the House!</div>
-            </div>
-        
-            <div class="mySlides fade">
-                <div class="numbertext">3 / 10</div>
-                <img src="images/tabling.jpg" style="width:100%">
-                <div class="text">Tabling in the Chem Building</div>
-            </div>
+            <div class="gallery">
 
-            <div class="mySlides fade">
-                <div class="numbertext">5 / 10</div>
-                <img src="images/Camila_Sara.JPG" style="width:100%">
-                <div class="text">Big Little bonding!</div>
-   
-            </div>
+                <a href="images/Cidermill.JPG" data-lightbox="pics" data-title="Cidermill trip!">
+                    <img src="images/Cidermill.JPG" style="width:100%">
+                </a>
 
-            <div class="mySlides fade">
-                <div class="numbertext">4 / 10</div>
-                <img src="images/Cidermill.JPG" style="width:100%">
-                <div class="text">Checking out the Cidermill!</div>
-  
-            </div>
+                <a href="images/formal_girls.JPG" data-lightbox="pics" data-title="Formal in the Michigan League">
+                    <img src="images/formal_girls.JPG" style="width:100%">
+                </a>
 
-            <div class="mySlides fade">
-                <div class="numbertext">6 / 10</div>
-                <img src="images/iceskating2023.JPG" style="width:100%">
-                <div class="text">Trip to Yost!</div>
-           
-            </div>
+                <a href="images/iceskating2023.JPG" data-lightbox="pics" data-title="Ice skating at Yost!">
+                    <img src="images/iceskating2023.JPG" style="width:100%">
+                </a>
 
-            
+                <a href="images/professional_interviews.jpg" data-lightbox="pics" data-title="Professional Interviews with Big 4">
+                    <img src="images/professional_interviews.jpg" style="width:100%">
+                </a>
 
-            <div class="mySlides fade">
-                <div class="numbertext">9 / 10</div>
-                <img src="images/formal_girls.JPG" style="width:100%">
-                <div class="text">Formal in the Michigan League!</div>
-             
-            </div>
 
-            <div class="mySlides fade">
-                <div class="numbertext">8 / 10</div>
-                <img src="images/professional_interviews.jpg" style="width:100%">
-                <div class="text">Professional Interviews: On the hunt for new members!</div>
-              
-            </div>
 
-            <div class="mySlides fade">
-                <div class="numbertext">7 / 10</div>
-                <img src="images/seniors_house.JPG" style="width:100%">
-                <div class="text">Goodbye to our wonderful Class of 2023!</div>
-          
-            </div>
 
-            
+                <a href="images/kenz_maddy_formal.jpeg" data-lightbox="pics" data-title="Maddy and Kenzie = Best Friends">
+                    <img src="images/kenz_maddy_formal.jpeg" style="width:100%">
+                </a>
 
-            <div class="mySlides fade">
-                <div class="numbertext">10 / 10</div>
-                <img src="images/bball.PNG" style="width:100%">
-                <div class="text">Basketball for a Cause! </div>
+                <a href="images/bball.PNG" data-lightbox="pics" data-title="Basketball for a cause!">
+                    <img src="images/bball.PNG" style="width:100%">
+                </a>
+
+                <a href="images/seniors_house.JPG" data-lightbox="pics" data-title="Goodbye to our wonderful Class of 2023!">
+                    <img src="images/seniors_house.JPG" style="width:100%">
+                </a>
+
+                <a href="images/pumpkin_carving_lauren.jpg" data-lightbox="pics" data-title="Pumpkin Carving">
+                    <img src="images/pumpkin_carving_lauren.jpg" style="width:100%">
+                </a>
+
+
+
+                <a href="images/Grad_23_group.jpeg" data-lightbox="pics" data-title="Graduating Class of 2023">
+                    <img src="images/Grad_23_group.jpeg" style="width:100%">
+                </a>
+
+                <a href="images/Ice_skating.JPG" data-lightbox="pics" data-title="Skating + (not a gang sign)">
+                    <img src="images/Ice_skating.JPG" style="width:100%">
+                </a>
+
+                <a href="images/grant_fox.JPG" data-lightbox="pics" data-title="Grant and Fox (ft. Sasha)">
+                    <img src="images/grant_fox.JPG" style="width:100%">
+                </a>
+
+                <a href="images/initiation_w23.png" data-lightbox="pics" data-title="Welcome W23 Pledge Class!">
+                    <img src="images/initiation_w23.png" style="width:100%">
+                </a>
+
+
+
+                <a href="images/pinball_petes.jpg" data-lightbox="pics" data-title="Arcade Games">
+                    <img src="images/pinball_petes.jpg" style="width:100%">
+                </a>
+
+                <a href="images/potluck.jpg" data-lightbox="pics" data-title="Potluck at the house">
+                    <img src="images/potluck.jpg" style="width:100%">
+                </a>
+
+                <a href="images/tabling.jpg" data-lightbox="pics" data-title="Tabling in the Chem Building">
+                    <img src="images/tabling.jpg" style="width:100%">
+                </a>
+
+                <a href="images/Camila_Sara.JPG" data-lightbox="pics" data-title="Big little bonding <3">
+                    <img src="images/Camila_Sara.JPG" style="width:100%">
+                </a>
+
+
+
+
+                <a href="images/pumpkin_carving_aaron.jpg" data-lightbox="pics" data-title="Aaron and Sara carving it up">
+                    <img src="images/pumpkin_carving_aaron.jpg" style="width:100%">
+                </a>
+
+                <a href="images/small_group_seniors.JPG" data-lightbox="pics" data-title="Natalie, Anna Chiara, Nikki, Drake and Veronica (RIP seniors)">
+                    <img src="images/small_group_seniors.JPG" style="width:100%">
+                </a>
+
+                <a href="images/Toiletbowl_game.JPG" data-lightbox="pics" data-title="Proving that nerds can do sports too">
+                    <img src="images/Toiletbowl_game.JPG" style="width:100%">
+                </a>
+
+                <a href="images/Valerie_lin.JPG" data-lightbox="pics" data-title="Valerie, Agniva, Addy, and Natalie (lin!!)">
+                    <img src="images/Valerie_lin.JPG" style="width:100%">
+                </a>
+
+
+
+
+                <a href="images/formal_table.jpeg" data-lightbox="pics" data-title="Lovely ladies at formal">
+                    <img src="images/formal_table.jpeg" style="width:100%">
+                </a>
+
+                <a href="images/festifall.jpg" data-lightbox="pics" data-title="Tabling at Festifall">
+                    <img src="images/festifall.jpg" style="width:100%">
+                </a>
+
+                <a href="images/formal_group.JPG" data-lightbox="pics" data-title="Friends at formal!">
+                    <img src="images/formal_group.JPG" style="width:100%">
+                </a>
+
+                <a href="images/building_com_outreach.JPG" data-lightbox="pics" data-title="Volunteering at Habitat for Humanity">
+                    <img src="images/building_com_outreach.JPG" style="width:100%">
+                </a>
+
                 
+                <!-- TEMPLATE -->
+                <!-- <a href="images/bball.PNG" data-lightbox="pics" data-title="caption">
+                    <img src="images/bball.PNG" style="width:100%">
+                </a> -->
+
             </div>
-        
-            <!-- Next and previous buttons -->
-            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-            <a class="next" onclick="plusSlides(1)">&#10095;</a>
-        </div>
-        <br>
-    </div>
-        <!-- The dots/circles -->
-        <div class="circles" style="text-align:center">
-            <span class="dot" onclick="currentSlide(1)"></span>
-            <span class="dot" onclick="currentSlide(2)"></span>
-            <span class="dot" onclick="currentSlide(3)"></span>
-        </div>
+
+        </div> 
+
+        <script src="js/lightbox-plus-jquery.js"></script>
 
     </main>
 
